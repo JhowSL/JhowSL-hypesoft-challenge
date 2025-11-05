@@ -1,0 +1,16 @@
+{
+  "name": "hypesoft-challenge",
+  "version": "1.0.0",
+  "author": "JhowSL",
+  "description": "Desafio técnico da Hypesoft! Este projeto consiste no desenvolvimento de um sistema completo de gestão de produtos, demonstrando minhas habilidades em arquitetura moderna, boas práticas de desenvolvimento e tecnologias de ponta.",
+  "scripts": {
+    "prepare": "pnpm exec husky init"
+  },
+  "keywords": [],
+  "packageManager": "pnpm@10.18.2",
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "husky": "^9.1.7"
+  }
+}
