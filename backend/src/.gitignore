@@ -1,0 +1,80 @@
+# Compiled source #
+###################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files #
+#######################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code #
+######################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build results #
+#################
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio Code coverage #
+###############################
+*.coverage
+*.coveragexml
+TestResults/
+
+# Packages #
+############
+*.nupkg
+*.snupkg
+*.nuspec
+*.dll
+*.exe
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Docker #
+##########
+docker-compose.override.yml
+.env
+.env.local
+.env.development
+.env.production
+*.pid
+*.log
+
+# Node / Frontend (caso venha a coexistir no repo)
+##################################################
+node_modules/
+dist/
+.next/
+out/
+coverage/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# JetBrains / Rider #
+#####################
+.idea/
+
+# Temp files #
+##############
+*.tmp
+*.bak
+*.swp
