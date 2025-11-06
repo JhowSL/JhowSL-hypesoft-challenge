@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "npx @biomejs/biome lint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "lint:all": "npx @biomejs/biome lint --fix",
+    "format": "npx @biomejs/biome format --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format:all": "npx @biomejs/biome format --write",
+    "check:all": "npx @biomejs/biome check --write"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
@@ -20,6 +24,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.3.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
